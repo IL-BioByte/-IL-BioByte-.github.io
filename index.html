@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark" style="color-scheme: dark;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yilan Li Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaquires.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <nav id="desktop-nav">
@@ -35,6 +36,51 @@
             </ul>
         </div>
     </nav>
+    <section id="profile">
+        <!-- <div class="section_pic-container">
+            <img src="./assets/default profile image.jpg" alt="Yilan Li Profile Picture">
+        </div> -->
+        <div class="section__text">
+            <p class="section__text__p1">Based In Canada</p>
+            <h1 class="title">
+                Insightful <span class="highlight">Analysis & Data-Driven</span> Solutions
+            </h1>                        
+            <p class="section__text__p2"> Hi, I'm Yilan. I inform decisions and drive impactful strategies by uncovering insights from complex datasets.</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                    <i class="fas fa-download"></i> Download CV
+                <button class="btn btn-color-1" onclick="location.href='./#projects'">See My Work</button>
+            </div>            
+            <div id="socials-container">
+                <img src="./assets/linkedin-white.jpeg" alt="My LinkeIn Profile" class="icon" onclick="location.href='https:/www.linkedin.com/in/yilanli5200173/'"/>
+                <img src="./assets/github-white.png" alt="My Github Profile" class="icon" onclick="location.href='https:/github.com/IL-ChengYin'"/>
+            </div>
+        </div>
+        <!-- <div class="linkedin-profile">
+            <a href="https://www.linkedin.com/in/person1" target="_blank">
+                <img src="profile-image1.jpg" alt="Person 1">
+                <div class="profile-info">
+                    <h3>Person 1</h3>
+                </div>
+            </a>
+            <div class="recommendation-popup">
+                <p>"Excellent to work with, very professional."</p>
+            </div>
+        </div>
+        
+        <div class="linkedin-profile">
+            <a href="https://www.linkedin.com/in/person2" target="_blank">
+                <img src="profile-image2.jpg" alt="Person 2">
+                <div class="profile-info">
+                    <h3>Person 2</h3>
+                </div>
+            </a>
+            <div class="recommendation-popup">
+                <p>"Great team player, and very knowledgeable."</p>
+            </div>
+        </div> -->
+        
+    </section>
     <script src="script.js"></script>
 </body>
 </html>

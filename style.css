@@ -30,7 +30,7 @@ html {
   }
 
 p {
-    color: rgb(85,85,85)
+    color: rgb(253, 253, 253)
 }
 
 /* transition */
@@ -61,16 +61,16 @@ nav {
 
 /* style link */
 a {
-    color: black;
+    color: rgb(249, 249, 249);
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: rbg(181, 181, 181);
 }
 
 a:hover {
     color: grey;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181)
+    text-decoration-color: rgb(181, 181, 181);
 }
 
 .logo {
@@ -104,7 +104,7 @@ a:hover {
 .hamburger-icon span {
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     transition: all 0.3s ease-in-out;
 }
 
@@ -120,11 +120,12 @@ a:hover {
 }
 
 .menu-links a {
+    background: rgb(18,18,18);
     display: block;
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
@@ -151,3 +152,159 @@ a:hover {
     transform: none; 
     opacity: 1;
 }
+
+/* sections */
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text p {
+    font-weight: 600;
+}
+
+.section__text__p1 {
+    text-align: center;
+}
+
+.section__text__p2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 3.5rem; 
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.3;
+    margin: 20px 0;
+}
+
+.title .highlight {
+    color: #007bff;
+    font-weight: 700; 
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+/* ICON */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+/* Button container */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Button styling */
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem 1.5rem;
+    width: auto; 
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.btn-color-1, .btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-1:hover, .btn-color-2:hover {
+   cursor: pointer;
+   background: rgb(53, 53, 53);
+   color: white;
+}
+
+.btn-color-1 {
+    background: none; 
+}
+
+.btn-color-2 {
+    background: none;
+}
+
+.btn-color-2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+/* Icon styling */
+.fas.fa-download {
+    color: #007bff; 
+    font-size: 1.2rem;
+}
+
+/* LINKED IN RECOMANDATRION
+.linkedin-profile {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.linkedin-profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.recommendation-popup {
+    display: none;
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.linkedin-profile:hover .recommendation-popup {
+    display: block;
+} */
