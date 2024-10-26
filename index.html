@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yilan Li's portfolio showcasing data analysis, insights, and technical skills with projects and experience in SQL, Python, R, and more.">
     <title>Yilan Li Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaquires.css">
@@ -13,8 +14,7 @@
         <div class="logo"> Yilan Li</div>
         <div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#technology">Technology</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -29,58 +29,162 @@
                 <span></span>
             </div>
             <ul class="menu-links"> 
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#technology" onclick="toggleMenu()">Technology</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </ul>
         </div>
     </nav>
-    <section id="profile">
-        <!-- <div class="section_pic-container">
-            <img src="./assets/default profile image.jpg" alt="Yilan Li Profile Picture">
-        </div> -->
+    <section id="home">
         <div class="section__text">
-            <p class="section__text__p1">Based In Canada</p>
+            <p class="section__text__p1">Based In Canada & Ready for New Horizons</p>
             <h1 class="title">
                 Insightful <span class="highlight">Analysis & Data-Driven</span> Solutions
             </h1>                        
             <p class="section__text__p2"> Hi, I'm Yilan. I inform decisions and drive impactful strategies by uncovering insights from complex datasets.</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
-                    <i class="fas fa-download"></i> Download CV
-                <button class="btn btn-color-1" onclick="location.href='./#projects'">See My Work</button>
+                    <i class="fas fa-download"></i> Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#projects'">See My Projects</button>
             </div>            
             <div id="socials-container">
-                <img src="./assets/linkedin-white.jpeg" alt="My LinkeIn Profile" class="icon" onclick="location.href='https:/www.linkedin.com/in/yilanli5200173/'"/>
-                <img src="./assets/github-white.png" alt="My Github Profile" class="icon" onclick="location.href='https:/github.com/IL-ChengYin'"/>
+                <img src="./assets/linkedin-white.jpeg" alt="My LinkeIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/yilanli5200173/'"/>
+                <img src="./assets/github-white.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/IL-ChengYin'"/>
             </div>
         </div>
-        <!-- <div class="linkedin-profile">
-            <a href="https://www.linkedin.com/in/person1" target="_blank">
-                <img src="profile-image1.jpg" alt="Person 1">
-                <div class="profile-info">
-                    <h3>Person 1</h3>
-                </div>
-            </a>
-            <div class="recommendation-popup">
-                <p>"Excellent to work with, very professional."</p>
-            </div>
-        </div>
-        
-        <div class="linkedin-profile">
-            <a href="https://www.linkedin.com/in/person2" target="_blank">
-                <img src="profile-image2.jpg" alt="Person 2">
-                <div class="profile-info">
-                    <h3>Person 2</h3>
-                </div>
-            </a>
-            <div class="recommendation-popup">
-                <p>"Great team player, and very knowledgeable."</p>
-            </div>
-        </div> -->
-        
     </section>
-    <script src="script.js"></script>
+    <section id="technology">
+        <div class="tech-container">
+            <h1 class="tech-title">Technologies Toolkit</h1>
+            <p class="tech-description">I'm skilled in a variety of modern technologies that enable me to develop powerful, high-performance solutions.</p>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <img src="./assets/sql.png" alt="">
+                    <div>
+                        <h2 class="tech-name">SQL</h2>
+                        <p class="tech-role">Database Management</p>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <img src="./assets/python.png" alt="">
+                    <div>
+                        <h2 class="tech-name">Python</h2>
+                        <p class="tech-role">Pandas & Numpy</p>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <img src="./assets/R.png" alt="">
+                    <div>
+                        <h2 class="tech-name">R</h2>
+                        <p class="tech-role">Statistic & Visualization</p>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <img src="./assets/Tableau.webp" alt="">
+                    <div>
+                        <h2 class="tech-name">Tableau</h2>
+                        <p class="tech-role">Interactive Reports</p>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <img src="./assets/excel.webp" alt="">
+                    <div>
+                        <h2 class="tech-name">Excel</h2>
+                        <p class="tech-role">Data Cleansing</p>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <img src="./assets/git.png" alt="">
+                    <div>
+                        <h2 class="tech-name">Git</h2>
+                        <p class="tech-role">Version control</p>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <img src="./assets/html.png" alt="">
+                    <div>
+                        <h2 class="tech-name">HTML</h2>
+                        <p class="tech-role">Deploy Web Pages</p>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <img src="./assets/css.png" alt="">
+                    <div>
+                        <h2 class="tech-name">CSS</h2>
+                        <p class="tech-role">Styling Data Visualizations</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="portfolio" id="projects">
+        <div class="main-text">
+            <h1>My Projects</h1>
+        </div>
+
+        <div class="portfolio-content">
+            <div class="row">
+                <a href="https://www.geeksforgeeks.org/library-management-system/" target="_blank">
+                    <img src="./assets/default profile image.jpg" alt="">
+                </a>
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>discription for software</h5>
+                    </div>
+                </div>
+                <h3>App Name Porject Name etc</h3>
+            </div>
+
+            <div class="row">
+                <a href="https://www.geeksforgeeks.org/forecast-weather-project-check-today-weather-for-any-location/" target="_blank">
+                    <img src="./assets/default profile image.jpg" alt="Weather Forecasting App">
+                </a>
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>discription for software</h5>
+                    </div>
+                </div>
+                <h3>App Name Porject Name etc</h3>
+            </div>
+
+            <div class="row">
+                <a href="https://www.geeksforgeeks.org/dog-breed-classification-using-transfer-learning/" target="_blank">
+                    <img src="./assets/default profile image.jpg" alt="">
+                </a>
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>discription for software</h5>
+                    </div>
+                </div>
+                <h3>App Name Porject Name etc</h3>
+            </div>
+
+            <div class="row">
+                <a href="https://www.geeksforgeeks.org/ml-boston-housing-kaggle-challenge-with-linear-regression/" target="_blank">
+                    <img src="./assets/default profile image.jpg" alt="">
+                </a>
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>discription for software</h5>
+                    </div>
+                </div>
+                <h3>App Name Porject Name etc</h3>
+            </div>
+        </div>
+    </section>
+<footer>
+    <div id="contact">
+    <div class="footer-container">
+        <div class="footer-content">
+            <h3>Contact Me</h3>
+            <p>Email: <a href="mailto:yilli_@outlook.com">yilli_@outlook.com</a></p>
+            <p>Phone: (902)314-6806</p>
+        </div>
+    </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Yilan Li. Made with tears and love.</p>
+    </div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
